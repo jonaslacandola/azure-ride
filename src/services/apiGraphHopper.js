@@ -1,7 +1,7 @@
 export async function getRoute({location, destination}) {
     const points = [`${location}`, `${destination}`];
     const query = new URLSearchParams({
-        profile: "foot",
+        profile: "bike",
         locale: "en",
         instructions: "true",
         optimize: true,
